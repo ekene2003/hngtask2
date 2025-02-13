@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Archivo+Black&family=Bebas+Neue&family=Quicksand:wght@300..700&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&family=Train+One&display=swap");
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .page3wrap {
+    display: flex;
+    /* width: 375px; */
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  .p3-iw {
+    display: flex;
+    width: 700px;
+    padding: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    border: 1px solid #0e464f;
+    background: #041e23;
+  }
+  .p3-h {
+    color: #fff;
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+  }
+  .p3-p {
+    color: var(--color-grey-98, #fafafa);
+    text-align: center;
+
+    /* Text/Regular/Normal */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    align-self: stretch;
+  }
+  .p3-ticket-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+  .p3-tick {
+    width: 300px;
+    height: 600px;
+    border: 1px solid #24a0b5;
+    background: #71a7af;
+  }
+  .p3-innertick {
+    display: flex;
+    width: 260px;
+    height: 446px;
+    padding: 14px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+}
