@@ -39,7 +39,7 @@ function Thirdform(params) {
       </div>
       <div className="page3wrap">
         <div className="p3-iw">
-          <div className="th-wrap d-flex w-100 justify-content-between align-items-center">
+          <div className="th-wrap2 d-flex w-100 justify-content-between align-items-center">
             <h1 className="ticket-h">Ready</h1>
             <p className="ticket-p">Step 3/3</p>
           </div>
@@ -54,7 +54,41 @@ function Thirdform(params) {
           </div>
           <div className="p3-ticket-wrap">
             <div className="p3-tick">
-              <div className="p3-innertick"></div>
+              <div className="p3-innertick">
+                <h1 className="psi-h">Techember Fest ”25</h1>
+                <p className="psi-p">📍 04 Rumens road, Ikoyi, Lagos</p>
+                <p className="psi-p">📅 March 15, 2025 | 7:00 PM</p>
+                <div className="user-img"></div>
+                <div className="user-details mt-2">
+                  <div className="details-wrap d-flex">
+                    <div className="details">
+                      <p className="de-p">Enter your name</p>
+                      <p className="de-h">Avi Chukwu</p>
+                    </div>
+                    <div className="details2">
+                      <p className="de-p">Enter your email*</p>
+                      <p className="de-h">User@email.com</p>
+                    </div>
+                  </div>
+                  <div className="details-wrap d-flex">
+                    <div className="details">
+                      <p className="de-p">ticket type:</p>
+                      <p className="de-h2">vip</p>
+                    </div>
+                    <div className="details2">
+                      <p className="de-p">Ticket for:</p>
+                      <p className="de-h">1</p>
+                    </div>
+                  </div>
+                  <div className="s-r">
+                    <h className="sr-h">Special request?</h>
+                    <h className="sr-p">
+                      Nil ? Or the users sad story they write in there gets this
+                      whole space, Max of three rows
+                    </h>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="button-wrap w-100 text-capitalize">

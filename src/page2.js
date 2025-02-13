@@ -40,7 +40,7 @@ function SecondForm(params) {
       </div>
       <section className="page-2body">
         <div className="p2body-wrap">
-          <div className="th-wrap d-flex w-100 justify-content-between align-items-center">
+          <div className="th-wrap2 d-flex w-100 justify-content-between align-items-center">
             <h1 className="ticket-h">Attendee Details</h1>
             <p className="ticket-p">Step 2/3</p>
           </div>
